@@ -1,6 +1,27 @@
+# =============================================================================
+# RAG Application Dependencies (for Streamlit Cloud deployment)
+# =============================================================================
+
+# Core LangChain
 langchain
 langchain-community
-##langchain-google-genai
-dotenv
-streamlit
+langchain-core
 langchain-groq
+langchain-text-splitters
+
+# Vector Database
+chromadb
+
+# Embeddings (Free - No API Key)
+sentence-transformers
+langchain-huggingface
+
+# Document Processing
+pypdf
+beautifulsoup4
+requests
+
+# Utilities
+python-dotenv
+streamlit
+tiktoken
